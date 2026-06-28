@@ -1,4 +1,4 @@
-*.jpg
-*.JPG
+/*.jpg
+/*.JPG
 __pycache__/
 .DS_Store
