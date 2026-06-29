@@ -9,7 +9,18 @@ and exposure settings/capture time on the second line.
 
 ## Setup
 
+### Install Miniconda
+
+For Windows:
+
+```
+https://anaconda.com/api/installers/Miniconda3-latest-Windows-x86_64.exe
+```
+
+### Install Python Environment
+
 ```bash
+conda create -n image python=3.12 -y
 conda activate image
 pip install -r requirements.txt
 ```
